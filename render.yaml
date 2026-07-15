@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: patent-pdf-suite
+    runtime: docker
+    healthCheckPath: /api/health
+    plan: starter
+    envVars:
+      - key: MAX_PDF_BYTES
+        value: "31457280"

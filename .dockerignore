@@ -1,0 +1,8 @@
+node_modules
+dist
+__pycache__
+.git
+.agents
+uploaded_excel
+downloaded_pdfs
+*.pyc
